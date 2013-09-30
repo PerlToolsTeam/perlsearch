@@ -1,0 +1,4 @@
+lib = lib
+src = in
+dest = .
+wrapper = wrapper
