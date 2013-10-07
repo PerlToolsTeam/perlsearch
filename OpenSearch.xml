@@ -5,9 +5,8 @@
   <Description>A search engine for the Perl programming language</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">http://search.perlhacks.com/favicon.ico</Image>
-  <Url type="text/html" method="POST" template="http://www.google.com/cse">
+  <Url type="text/html" method="GET" template="http://www.google.com/cse">
     <Param name="q" value="{searchTerms}"/>
-    <Param name="client" value="google-coop"/>
     <Param name="cx" value="008350714774536055976:a2zesuxuecs"/>
   </Url>
   <!-- Url type="application/x-suggestions+json" template="suggestionURL"/ -->
