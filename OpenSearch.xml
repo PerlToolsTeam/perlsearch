@@ -6,7 +6,7 @@
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">http://search.perlhacks.com/favicon.ico</Image>
   <Url type="text/html" method="POST" template="http://www.google.com/cse?client=google-coop&amp;hl=en&amp;r=m&amp;cx=008350714774536055976%3Aa2zesuxuecs">
-    <Param name="q" value="{searchTerms}"/>
+    <Param name="gsc.q" value="{searchTerms}"/>
   </Url>
   <!-- Url type="application/x-suggestions+json" template="suggestionURL"/ -->
   <moz:SearchForm>http://search.perlhacks.com/</moz:SearchForm>
