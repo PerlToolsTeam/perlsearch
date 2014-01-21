@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<OpenSearchDescription>
   <ShortName>Perl Search</ShortName>
-  <Description>A search engine for the Perl programming language</Description>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">http://search.perlhacks.com/favicon.ico</Image>
-  <Url type="text/html" method="POST" template="http://search.perlhacks.com/">
-    <Param name="search" value="{searchTerms}"/>
-  </Url>
-  <Url type="application/x-suggestions+json" template="suggestionURL"/>
-  <moz:SearchForm>http://search.perlhacks.com/</moz:SearchForm>
+  <Description>Perl Search</Description>
+  <Image width="16" height="16" type="image/x-icon">http://www.google.com/favicon.ico</Image>
+  <Url type="text/html" method="get"
+       template="http://www.google.com/cse?cx=008350714774536055976:a2zesuxuecs&ie=UTF-8&q={searchTerms}&sa=Search"/>
+  <Url type="application/x-suggestions+json" method="get" template="http://www.google.com/complete/search?q={searchTerms}&partnerid=008350714774536055976:a2zesuxuecs&ds=cse&output=firefox"/>
 </OpenSearchDescription>
