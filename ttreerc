@@ -1,4 +1,4 @@
 lib = lib
 src = in
-dest = .
+dest = docs 
 wrapper = wrapper
